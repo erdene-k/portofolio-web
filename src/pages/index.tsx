@@ -6,12 +6,16 @@ export default function Home() {
   return (
     <div>
       <header>
-        <Navbar/>
+        <Navbar />
       </header>
       <main>
-        <div className="my-12 h-screen">
-          <div className="min-h-1/2 bg-green-400"></div>
-          <h1>Hi, I am Jhan Gonzales</h1>
+        <div className="my-24 h-screen">
+        <div className="flex  h-1/2
+ h-1/2">    <div className=" bg-green-400 w-1/2 ">
+      
+      </div>
+      <div className=" bg-red-400 w-1/2 "></div></div>
+          <p className="text-center">Hi, I am Jhan Gonzales</p>
         </div>
       </main>
     </div>
