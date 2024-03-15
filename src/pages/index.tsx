@@ -10,11 +10,12 @@ export default function Home() {
       </header>
       <main>
         <div className="my-24 h-screen">
-        <div className="flex  h-1/2
- h-1/2">    <div className=" bg-green-400 w-1/2 ">
-      
-      </div>
-      <div className=" bg-red-400 w-1/2 "></div></div>
+          <div
+            className="flex h-1/2"
+          >
+            <div className=" w-1/2 bg-green-400 "></div>
+            <div className=" w-1/2 bg-red-400 "></div>
+          </div>
           <p className="text-center">Hi, I am Jhan Gonzales</p>
         </div>
       </main>

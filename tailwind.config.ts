@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         "color-border": '#3b3b3b',
+        "color-navbar-hover": "#121212",
+        "color-main": "#0A0A0A"
       },
      
     },
