@@ -6,11 +6,7 @@ const Navbar = () => {
   return (
     <nav className="fixed left-1/2 top-12 -translate-x-1/2 -translate-y-1/2 transform bg-color-main backdrop-blur-sm">
     <ul className="flex h-16 items-center justify-center gap-6">
-      <li className={linkStyle}>
-        <Link href="#">
-          <p>Work</p>
-        </Link>
-      </li>
+     
       <li className={linkStyle}>
         <Link href="#">
           <p>About</p>
@@ -19,6 +15,11 @@ const Navbar = () => {
       <li className={linkStyle}>
         <Link href="#">
           <p>Project</p>
+        </Link>
+      </li>
+      <li className={linkStyle}>
+        <Link href="#">
+          <p>Skillset</p>
         </Link>
       </li>
       <li className={linkStyle}>

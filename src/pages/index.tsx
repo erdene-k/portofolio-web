@@ -16,7 +16,16 @@ export default function Home() {
             <div className=" w-1/2 bg-green-400 "></div>
             <div className=" w-1/2 bg-red-400 "></div>
           </div>
+          <p>advanced stuffsssthree js</p>
           <p className="text-center">Hi, I am Jhan Gonzales</p>
+        </div>
+        <div className="work-section">
+          <h2>My experience</h2>
+        </div>
+        <div className="work-section">
+          <h2>My skillset</h2>
+          <p>carousel</p>
+          mobile view mb menu
         </div>
       </main>
     </div>
